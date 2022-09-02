@@ -22,7 +22,7 @@ const HeroSection = () => {
         <VideoBg autoPlay muted src={Video} onEnded={() => onVideoEnd()} type='video/mp4' />
       </HeroBg>
       <HeroContent fade={fade}>
-        <HeroH1>Automation made intuitive</HeroH1>
+        <HeroH1>Grow with Automation</HeroH1>
         <HeroP>Sign up for a free online consultation today.</HeroP>
         <HeroBtnWrapper>
           <Button to="signup" onMouseEnter={onHover} onMouseLeave={onHover}

@@ -15,7 +15,7 @@ const Info = () => {
   document.body.clientHeight;
   return (
     <Container style={{"min-height":height}}>
-      <Icon to="/">Intuit</Icon>
+      <Icon to="/">Dereva</Icon>
       <FormWrap style={{"min-height":height -160}}>
         <FormContent>
           <Form>

@@ -44,9 +44,9 @@ const Footer = () => {
         <SocialMedia>
           <SocialMediaWrap>
             <SocialLogo to='/'>
-              Intuit
+              Dereva
             </SocialLogo>
-            <WebsiteRights>Intuit Automation Inc. © {new Date().getFullYear()} All rights reserved.</WebsiteRights>
+            <WebsiteRights>Dereva Systems Inc. © {new Date().getFullYear()} All rights reserved.</WebsiteRights>
             <SocialIcons>
               <SocialIconLink href="www.github.com" target="_blank" aria-label="GitHub">
                 <FaGithub />

@@ -33,7 +33,7 @@ const Thanks = () => {
   return (
     <>
     <Container>
-      <Icon to="/">Intuit</Icon>
+      <Icon to="/">Dereva</Icon>
       <FormWrap>
         <FormContent>
           <Form action="#">

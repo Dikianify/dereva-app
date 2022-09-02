@@ -8,8 +8,8 @@ export const Container = styled.div`
   flex-direction: column;
   background: linear-gradient(
     108deg,
-    rgba(255, 211, 96, 1) 0%,
-    rgba(255, 255, 221, 1) 100%
+    rgba(25, 158, 28, 1) 0%,
+    rgba(192, 247, 193, 1) 100%
   );
 `
 

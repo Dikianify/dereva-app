@@ -1,3 +1,8 @@
+import Icon1 from '../../images/svg-1.svg'
+import Icon2 from '../../images/svg-2.svg'
+import Icon3 from '../../images/svg-3.svg'
+
+
 export const homeObjOne = {
   id: 'about',
   lightBg: false,
@@ -9,7 +14,7 @@ export const homeObjOne = {
   buttonLabel: 'Learn More',
   destination: '/aboutus',
   imgStart: true,
-  img: require('../../images/svg-1.png'),
+  img: Icon1,
   alt: 'Car',
   dark: true,
   primary: true,
@@ -27,7 +32,7 @@ export const homeObjTwo = {
   buttonLabel: 'Learn More',
   destination: '/howitworks',
   imgStart: false,
-  img: require('../../images/svg-2.png'),
+  img: Icon2,
   alt: 'Phone',
   dark: false,
   primary: false,
@@ -45,7 +50,7 @@ export const homeObjThree = {
   buttonLabel: 'Sign Up',
   destination: '/signup',
   imgStart: true,
-  img: require('../../images/svg-3.png'),
+  img: Icon3,
   alt: 'Car',
   dark: false,
   primary: false,

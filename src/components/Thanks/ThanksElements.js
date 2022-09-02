@@ -90,7 +90,7 @@ export const FormH2 = styled.h1`
 `
 
 export const FormButton = styled(Link)`
-  background: #ffd260;
+  background: #199e1c;
   padding: 16px 0;
   border: none;
   border-radius: 4px;

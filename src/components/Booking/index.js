@@ -91,7 +91,7 @@ oneYearFromNow.setFullYear(oneYearFromNow.getFullYear() + 1);
   return (
     <>
       <Container>
-        <Icon to="/">Intuit</Icon>
+        <Icon to="/">Dereva</Icon>
         <FormWrap>
           <FormContent>
             <Form onSubmit={handleSubmit}>

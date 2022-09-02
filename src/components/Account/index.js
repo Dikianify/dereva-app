@@ -84,7 +84,7 @@ const Account = (props) => {
     <>
       <Container>
         <NavWrap>
-          <Icon to="/">Intuit</Icon>
+          <Icon to="/">Dereva</Icon>
           <NavBtn onClick={handleLogout}>
             log Out
           </NavBtn>

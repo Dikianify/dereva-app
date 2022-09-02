@@ -60,7 +60,7 @@ const SignIn = (props) => {
   return (
     <>
       <Container style={{"minHeight":height}}>
-        <Icon to="/">Intuit</Icon>
+        <Icon to="/">Dereva</Icon>
         <FormWrap style={{"minHeight":height -160}}>
           <FormContent>
             <Form onSubmit={handleSubmit}>
