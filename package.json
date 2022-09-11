@@ -3,7 +3,6 @@
   "name": "dereva-app",
   "version": "0.1.0",
   "private": true,
-  "proxy": "http://12.0.0.1:5000",
   "dependencies": {
     "@mui/material": "^5.10.0",
     "@testing-library/jest-dom": "^5.16.1",
