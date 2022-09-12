@@ -53,7 +53,7 @@ const Navbar = ({ profToggle, toggle }) => {
             </NavItem>
           </NavMenu>
           <NavBtn>
-            <NavButton profToggle={profToggle} />
+            <NavBtnLink to="/booknow">Book Now</NavBtnLink>
           </NavBtn>
         </NavbarContainer>
       </Nav>
