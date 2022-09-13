@@ -56,7 +56,7 @@ oneYearFromNow.setFullYear(oneYearFromNow.getFullYear() + 1);
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    fetch('http://localhost:5000/post_appointment', {
+    fetch('https://intuit-booking-api.herokuapp.com/post_appointment', {
       'method':'POST',
       'headers': {
       'Accept':'applitcation/json',

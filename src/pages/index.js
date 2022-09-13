@@ -8,7 +8,7 @@ import Services from '../components/Services'
 import Footer from '../components/Footer'
 
 
-const Home = ({ token }) => {
+const Home = () => {
   const [isOpen, setIsOpen] = useState(false)
 
 
@@ -16,24 +16,11 @@ const Home = ({ token }) => {
   const toggle = () => {
     setIsOpen(!isOpen)
   }
-  
-  const [ profToggle, setProfToggle ] = useState(false);
-
-  useEffect(() => {
-    fetch('http://localhost:5000/profile', {
-      'method':'POST',
-      'headers': {
-      'Accept':'applitcation/json',
-      'Content-Type':'application/json',
-      'Authorization':'Bearer ' + token
-    }}).then(response => (response.status === 200 ? 
-      setProfToggle(true) : setProfToggle(false)))
-  })
 
   return (
     <>
-      <Sidebar isOpen={isOpen} profToggle={profToggle} toggle={toggle}/>
-      <Navbar profToggle={profToggle} toggle={toggle}/>
+      <Sidebar isOpen={isOpen} toggle={toggle}/>
+      <Navbar toggle={toggle}/>
       <HeroSection />
       <InfoSection {...homeObjOne}/>
       <InfoSection {...homeObjTwo}/>
