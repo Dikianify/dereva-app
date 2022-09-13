@@ -9,10 +9,9 @@ export const Container = styled.div`
   justify-content: center;
   background: linear-gradient(
     108deg,
-    rgba(255, 211, 96, 1) 0%,
-    rgba(255, 255, 221, 1) 100%
+    rgba(25, 158, 28, 1) 0%,
+    rgba(192, 247, 193, 1) 100%
   );
-
   @media screen and (max-height: 1000px) {
     height: 1000px;
 `
@@ -30,7 +29,7 @@ export const FormWrap = styled.div`
 
 export const Icon = styled(Link)`
   margin-left: 32px;
-  margin-top: -32px;
+  margin-top: 22px;
   width: 11%;
   text-decoration: none;
   color: #fff;
